@@ -1,25 +1,35 @@
 /*topContainer*/
 .top {
   display: flex;
-
+  justify-content: center;
   border: none;
-  padding: 24px 80px;
+  padding: 24px 45px;
   height: 60px;
   align-items: center;
+  cursor: pointer;
+}
+
+.top h5{
+  font-size: 1rem;
 }
 .left img{
   margin-top: 3px;
+  font-size:38px;
+  letter-spacing: 0.03em;
 }
 .course,
 .program {
   display: flex;
+  align-items: center;
   gap: 10px;
   margin-top: 5px;
+  /* font-family: "Raleway"; */
+  
 }
 .left {
   display: flex;
-  gap: 50px;
-  margin: 3rem;
+  gap: 40px;
+  margin: 2rem;
 }
 .left h2 {
   font-weight: bold;
@@ -40,7 +50,8 @@
 }
 .right button {
   width: 150px;
-  font-weight: bold;
+  font-weight: 500;
+  font-style:1rem;
 }
 .searchic,
 .log {
@@ -57,6 +68,9 @@
   /* border: 3px solid #f266ab; */
   display: flex;
   justify-content: space-between;
+}
+.box-1{
+  cursor: pointer;
 }
 .line1 {
   line-height: 3;
@@ -81,7 +95,15 @@
 .line4,
 .line5 {
   display: flex;
+  align-items: center;
   gap: 30px;
+}
+.line1,
+.line2,
+.line3,
+.line4,
+.line5 h2{
+  font-size: 2rem;
 }
 .box-1 img {
   width: 68px;
@@ -93,6 +115,7 @@
 .line4,
 .line5 {
   margin-bottom: 25px;
+  font-family: 'Roboto';
 }
 .line0 {
   margin-bottom: 2.8rem;
@@ -104,6 +127,7 @@
   margin-right: 102px;
   padding: 32px 24px;
   border-radius: 8px;
+  font-family: 'Roboto';
 }
 .lane1 {
   display: flex;
@@ -193,7 +217,9 @@
 }
 .checkbox{
   padding:12px;
+  align-items: center;
   gap:14.67px;
+  font-family: 'Roboto';
   cursor: pointer;
 }
 .checkbox label{
@@ -217,6 +243,7 @@
   gap:14.67px;
   padding: 12px;
   cursor: pointer;
+  font-family: 'Roboto';
 }
 .gap label{
   cursor: pointer;
@@ -237,6 +264,8 @@
   padding: 10px;
   height: 30px;
   margin-top: 15px;
+  font-family: 'Roboto';
+  color: #3C4852;
 }
 .lane7_2 {
   display: flex;

@@ -23,7 +23,7 @@ export default function TopContainer() {
         <div className='searchic'>
           <BsSearch/>
         </div>
-        <div className="log"><h5>Login</h5></div>
+        <div className="log"><h5 >Login</h5></div>
         <div>
           <button class='btn btn-primary rounded-pill'>JOIN NOW</button>
         </div>

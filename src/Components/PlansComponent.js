@@ -20,7 +20,7 @@ export default function PlansComponent() {
         </div>
       </div>
       <div className="lane2">
-        <p style={{ fontSize: "25px", color: "#3C4852;", fontWeight: "600" }}>
+        <p style={{ fontSize: "24px", color: "#3C4852;", fontWeight: "600", fontFamily:'Roboto' }}>
           Select your subcription plan
         </p>
       </div>
@@ -29,7 +29,7 @@ export default function PlansComponent() {
         <div className="checkbox">
           
           <img src='Radio Button.png' alt=''/>
-          <label class="text-secondary" style={{ fontSize: "1rem" }}>
+          <label class="text-secondary" style={{ fontSize: "1rem" , fontFamily:'Roboto'}}>
             12 Months Subscription
           </label>
         </div>

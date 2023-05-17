@@ -4,23 +4,23 @@ export default function CourseDetails() {
   return (
     <div className="box-1">
       <div className="line0">
-        <h1>Access curated courses worth</h1>
+        <h1 style={{fontFamily:'Raleway', fontWeight:'600'}}>Access curated courses worth</h1>
         <h2>
-          ₹ <span className="line">18,500</span> at just{" "}
-          <span class="text-primary">₹ 99</span> per year!
+          ₹ <span style={{fontFamily:'Roboto', fontWeight:'600'}} className="line">18,500</span> <span style={{fontFamily:'Raleway', fontWeight:'600'}}>at just</span>{" "}
+          <span style={{fontFamily:'Roboto', fontWeight:'600'}} class="text-primary">₹ 99</span> <span style={{fontFamily:'Raleway', fontWeight:'600'}}>per year!</span>
         </h2>
       </div>
       <div className="line1">
         <img src="Icon (4).png" alt="icon4" />
         <h2>
-          {" "}
+          
           <span class="text-primary">100+</span> Job relevent courses
         </h2>
       </div>
       <div className="line2">
         <img src="Icon.svg" alt="iconsvg" />
         <h2>
-          {" "}
+          
           <span class="text-primary">20,000</span> Hours of content
         </h2>
       </div>
